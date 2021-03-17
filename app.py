@@ -11,5 +11,9 @@ def index():
 def mike():
     return render_template('mike.html')
 
+@app.route('/loan')
+def mike():
+    return render_template('loan.html')
+
 if __name__ == '__main__':
     app.run(debug=True)
